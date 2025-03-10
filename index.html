@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dtrzka's Portfolio</title>
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <script src="./assets/js.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer"
+  />
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <div style="font-weight: bold;">DTRZKA</div>
+            <ul class="nav-ul">
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#internship">Internship</a></li>
+                <li><a href="#project">Projects</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="hero" id="about">
+        <div class="hero-content">
+            <h1>Hi there! 👋🏻</h1>
+            <p>
+                I'm Azka, a fresh graduate with a degree in Information Systems. I have a strong passion for system analysis, business analysis, and data science, 
+                particularly in leveraging technology to optimize business processes and derive meaningful insights from data. My experiences in web development and 
+                machine learning have strengthened my analytical and problem-solving skills, making me eager to contribute to innovative projects in these fields.
+            </p>
+        </div>
+        <div class="hero-image">
+            <img src="./assets/images/me.png" alt="Profile Avatar" class="profile-img">
+        </div>
+    </section>
+    
+    <section id="skills" class="skills">
+        <h2 class="section-title">SKILLS</h2>
+        <div class="skills-grid">
+            <div class="skill-card"><img src="./assets/images/laravel.png" alt="Laravel"> <p>Laravel</p></div>
+            <div class="skill-card"><img src="./assets/images/html-css.png" alt="HTML"> <p>HTML & CSS</p></div>
+            <div class="skill-card"><img src="./assets/images/mysql.png" alt="MySQL"> <p>MySQL</p></div>
+            <div class="skill-card"><img src="./assets/images/python.png" alt="Python"> <p>Python</p></div>
+            <div class="skill-card"><img src="./assets/images/ml.png" alt="Machine Learning"> <p>Machine Learning (CNN)</p></div>
+            <div class="skill-card"><img src="./assets/images/excel.png" alt="Excel"> <p>Excel</p></div>
+        </div>
+    </section>
+    
+    <section id="internship" class="cards">
+        <h2>INTERNSHIP EXPERIENCES</h2>
+            <div class="slider-wrapper">
+                <div class="slider-container">
+                    <!-- Slide 1 -->
+                    <div class="slide">
+                        <div class="row">
+                            <div class="col">
+                                <h3 class="col-content">SPB Request and Lead Time Dashboards</h3>
+                                <!-- <h4 class="col-content">August 2023 - December 2023</h4> -->
+                                <p class="col-content">Developed these dashboards during my internship at PT United Tractors. <strong>The SPB Request Dashboard</strong> helps manage letter requests from BC to the logistics department, 
+                                                        making it easier to track processed and pending requests. <br><strong>The Lead Time Dashboard</strong>, designed for the Production Plan Control and Warehouse departments, 
+                                                        monitors purchase orders, production, and deliveries, identifying those on target or overdue.</p>
+                                <div class="skills-container">
+                                    <div class="skill">Laravel</div>
+                                    <div class="skill">HTML & CSS</div>
+                                    <div class="skill">JavaScript</div>
+                                    <div class="skill">MySQL</div>
+                                </div>
+                            </div>
+                            <div class="col project-preview">
+                                <img src="./assets/images/UT.png" alt="UT" class="image">
+                                <!-- <button class="play-button" data-youtube-id="YOUR_VIDEO_ID_1">▶</button> -->
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Slide 2 -->
+                    <div class="slide">
+                        <div class="row">
+                            <div class="col">
+                                <h3 class="col-content">[THESIS] Gingivitis Image Recognition Using CNN</h3>
+                                <p class="col-content">Classified Gingivitis based on image using 500+ data with EfficientNet-B0 and Inception V3 Architectures. 
+                                    <br>Reaching 95.3% validation accuracy for EfficientNet-B0 and 95.96% accuracy for Inception V3. 
+                                    <br></p>
+                                <div style="text-align: left; margin-top: 10px;">
+                                    <a href="https://github.com/dtrzka/thesis" style="text-align: left;">Full Code</a>
+                                </div>
+                                <div class="skills-container">
+                                    <div class="skill">Python</div>
+                                    <div class="skill">Machine Learning</div>
+                                    <div class="skill">TensorFlow</div>
+                                </div>
+                            </div>
+                            <div class="col project-preview">
+                                <img src="./assets/images/skripsi.png" alt="skripsi" class="image">
+                            </div>
+                        </div>
+                    </div>
+    
+                    <!-- Slide 3 -->
+                    <div class="slide">
+                        <div class="row">
+                            <div class="col">
+                                <h3 class="col-content">Employee Test Performance Dashboard</h3>
+                                <p class="col-content">Developed a dashboard to visualize and track employee performance in regular brand-specific tests. 
+                                                        The dashboard allows users to filter data by store, brand, year, and month, making it easier to analyze pass rates across different criteria.</p>
+                                <div class="skills-container">
+                                    <div class="skill">Data Filtering</div>
+                                    <div class="skill">Laravel</div>
+                                    <div class="skill">HTML & CSS</div>
+                                    <div class="skill">JavaScript</div>
+                                    <div class="skill">MySQL</div>
+                                    <div class="skill">Excel</div>
+                                </div>
+                            </div>
+                            <div class="col project-preview">
+                                <img src="./assets/images/dash.png" alt="dash" class="image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Navigation Arrows -->
+                <button class="nav-button prev">←</button>
+                <button class="nav-button next">→</button>
+            </div>
+    </section>    
+
+    <section id="contact" class="contact-section">
+        <h2>CONTACT ME</h2>
+        <div class="contact-icons">
+            <a href="mailto:azka.shabirina@gmail.com" target="_blank" aria-label="Email">
+                <i class="fa-regular fa-envelope"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/detriaazkashabirina/" target="_blank" aria-label="LinkedIn">
+                <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+        </div>
+    </section>
+</body>
+</html>
+
+<script>
+    
+</script>
